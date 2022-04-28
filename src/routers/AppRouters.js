@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const AppRouters = () => {
     return (
        <BrowserRouter>
-
            <Routes>
             
            </Routes>

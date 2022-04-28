@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MemorizeHooks from './components/memorizacion/MemorizeHooks';
+import CallbackHook from './components/memorizacion/CallbackHook';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MemorizeHooks />
+    <CallbackHook />
   </React.StrictMode>
 );
 
