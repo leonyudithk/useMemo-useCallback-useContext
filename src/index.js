@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CallbackHook from './components/memorizacion/CallbackHook';
+import AppRouters from './routers/AppRouters';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CallbackHook />
+    <AppRouters/>
   </React.StrictMode>
 );
 
